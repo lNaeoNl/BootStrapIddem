@@ -1,0 +1,70 @@
+        <form class="row align-items-center">
+            <h5 class="mt-2">Fisicos</h5>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <label class="form-control" for="specificSizeInputName">Força</label>
+              <!-- <input type="text" class="form-control" id="specificSizeInputName" placeholder="Força"> -->
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <label class="visually-hidden" for="specificSizeInputName">Valor</label>
+              <input type="text" class="form-control" id="lblfor" placeholder="Valor">
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-4">
+              <label class="visually-hidden" for="specificSizeInputName">Bonus</label>
+              <input type="text" class="form-control disabled" id="lblbfor" placeholder="Bonus"> 
+            </div>
+        </form>
+
+          <div class="card col-lg-4 col-md-4 col-sm-12">
+            <div class="card-header">
+              Mentais
+              <img class="card-img float-end" style="width: 2rem;" src="src/img/MND.png" alt="">
+            </div>
+          <div class="card-body">
+          
+            <form class="row">
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <label class="form-control ">Inteligencia</label>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <label class="visually-hidden" for="specificSizeInputName">Valor</label>
+                <input type="text" class="form-control" id="lblint" placeholder="Valor">
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4">
+                <label class="visually-hidden" for="specificSizeInputName">Bonus</label>
+                <input type="text" class="form-control disabled" id="lblbint" placeholder="Bonus"> 
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                <label class="form-control ">Sabedoria</label>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                <label class="visually-hidden" for="specificSizeInputName">Valor</label>
+                <input type="text" class="form-control" id="lblsab" placeholder="Valor">
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                <label class="visually-hidden" for="specificSizeInputName">Bonus</label>
+                <input type="text" class="form-control disabled" id="lblbsab" placeholder="Bonus"> 
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                <label class="form-control ">Raciocinio</label>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                <label class="visually-hidden" for="specificSizeInputName">Valor</label>
+                <input type="text" class="form-control" id="lblrac" placeholder="Valor">
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                <label class="visually-hidden" for="specificSizeInputName">Bonus</label>
+                <input type="text" class="form-control disabled" id="lblbrac" placeholder="Bonus"> 
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                <label class="form-control ">Percepção</label>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                <label class="visually-hidden" for="specificSizeInputName">Valor</label>
+                <input type="text" class="form-control" id="lblper" placeholder="Valor">
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 mt-2">
+                <label class="visually-hidden" for="specificSizeInputName">Bonus</label>
+                <input type="text" class="form-control disabled" id="lblbper" placeholder="Bonus"> 
+              </div>
+            </form>
+          </div>
